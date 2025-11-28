@@ -6,16 +6,16 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ title, description, icon }: ServiceCardProps) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-[#83C5BE]/30 bg-white/90 p-6 shadow-lg shadow-[#E9F5F3] transition duration-300 hover:-translate-y-1 hover:border-[#83C5BE] animate-slide-up">
-      <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#E9F5F3] text-2xl text-[#2A3D45]">
+    <div className="group relative overflow-hidden rounded-lg xs:rounded-xl sm:rounded-2xl border border-[#83C5BE]/30 bg-white/90 p-3 xs:p-4 sm:p-6 shadow-lg shadow-[#E9F5F3] transition duration-300 hover:-translate-y-1 hover:border-[#83C5BE] animate-slide-up">
+      <div className="flex h-9 xs:h-10 sm:h-12 w-9 xs:w-10 sm:w-12 items-center justify-center rounded-lg xs:rounded-lg sm:rounded-xl bg-[#E9F5F3] text-lg xs:text-xl sm:text-2xl text-[#2A3D45]">
         {icon}
       </div>
-      <h3 className="mt-6 text-xl font-semibold text-[#2A3D45]">{title}</h3>
-      <p className="mt-3 text-sm text-[#2A3D45]/70">{description}</p>
-      <div className="mt-6 flex items-center text-sm font-medium text-[#83C5BE]">
+      <h3 className="mt-3 xs:mt-4 sm:mt-6 text-base xs:text-lg sm:text-xl font-semibold text-[#2A3D45]">{title}</h3>
+      <p className="mt-1.5 xs:mt-2 sm:mt-3 text-xs sm:text-sm text-[#2A3D45]/70 leading-relaxed">{description}</p>
+     {/* <div className="mt-3 xs:mt-4 sm:mt-6 flex items-center text-xs sm:text-sm font-medium text-[#83C5BE]">
         Learn more
         <svg
-          className="ml-2 h-4 w-4 transition duration-300 group-hover:translate-x-1"
+          className="ml-1 xs:ml-1.5 sm:ml-2 h-3 xs:h-3.5 sm:h-4 w-3 xs:w-3.5 sm:w-4 transition duration-300 group-hover:translate-x-1"
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
@@ -24,7 +24,7 @@ export default function ServiceCard({ title, description, icon }: ServiceCardPro
           <path d="M5 12h14" strokeLinecap="round" strokeLinejoin="round" />
           <path d="M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
-      </div>
+      </div> */}
       <div className="pointer-events-none absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100">
         <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-[#83C5BE] via-[#E9F5F3] to-[#CDBBA7]" />
       </div>
