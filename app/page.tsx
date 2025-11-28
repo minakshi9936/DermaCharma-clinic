@@ -3,6 +3,7 @@ import AboutSection from '../components/AboutSection';
 import TreatmentsSection from '../components/TreatmentsSection';
 import Gallery from '../components/Gallery';
 import ServiceCard from '../components/ServiceCard';
+import FAQ from '../components/FAQ';
 
 const services = [
   {
@@ -52,6 +53,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <FAQ />
     </>
   );
 }

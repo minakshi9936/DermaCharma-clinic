@@ -78,13 +78,13 @@ export default function AboutSection() {
               </div>
             </div>
             <p className="text-xs xs:text-sm sm:text-base text-[#2A3D45] leading-relaxed">
-              "Every protocol is sketched from lab diagnostics, emotional wellbeing, and biomimetic actives. We believe in
-              rituals that respect physiology and truly transform the stories skin wants to tell."
+              &quot;Every protocol is sketched from lab diagnostics, emotional wellbeing, and biomimetic actives. We believe in
+              rituals that respect physiology and truly transform the stories skin wants to tell.&quot;
             </p>
           </div>
           <div className="relative order-1 lg:order-2">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[20px] xs:rounded-[24px] sm:rounded-[32px] border border-[#83C5BE]/30 bg-gradient-to-br from-[#E9F5F3] via-white to-[#C2E3DD] shadow-2xl shadow-[#C2E3DD]/60">
-              <Image src="https://dermacharm.in/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-09-at-12.45.14-AM-1024x682.jpeg" alt="Dr. Aanya Rishikesh" fill priority className="object-cover" />
+              <Image src="https://dermacharm.in/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-09-at-12.45.14-AM-1024x682.jpeg" alt="Dr. Anurag Agrahari" fill priority className="object-cover" />
             </div>
             <div className="absolute -bottom-2 xs:-bottom-3 sm:-bottom-6 right-2 xs:right-3 sm:right-6 rounded-lg xs:rounded-lg sm:rounded-2xl border border-white/40 bg-[#2A3D45] px-3 xs:px-4 sm:px-6 py-2 xs:py-3 sm:py-4 text-white shadow-xl">
               <p className="text-[0.65rem] xs:text-xs uppercase tracking-[0.4em] text-white/70">Credentials</p>

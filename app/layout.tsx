@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <Topbar />
             <Navbar />
           </header>
-          <main className="flex flex-col gap-20 pb-20">{children}</main>
+          <main className="flex flex-col pb-20">{children}</main>
           <Footer />
           <ChatWidget />
         </div>
